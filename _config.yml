@@ -1,1 +1,168 @@
 theme: jekyll-theme-cayman
+<!DOCTYPE html>
+<Html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi Prototype</title>
+</head>
+<body>
+    <h1 align='center'>BAB 1</h1> 
+    <h2 align='center'>PENDAHULUAN</h2>
+   <h3>1.1. Latar belakang</h3>
+    <p style="text-align: justify; text-indent: 0.5in;"> 
+        Kepolisian Republik Indonesia memiliki tanggung jawab atas pemeliharaan dan pengelolaan barang bukti kriminal. 
+        Kepolisian dalam hal ini berperan sebagai penindak serta pelindung masyarakat dari tindak kriminalitas yang saat ini marak terjadi.</p>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Dalam setiap kasus penyidik kepolisian mencari barang bukti yang digunakan pelaku tindak pidana yang dilakukan sebagai rangkaian 
+        penyelesaian suatu kasus pidana, nantinya akan di pergunakan pada proses persidangan. 
+        Barang bukti juga di fungsikan sebagai alat yang dapat mempermudah penjatuhan dakwaan kepada pelaku, barang bukti juga bisa di gunakan untuk memberatkan atau meringankan dakwaan. 
+        Dalam lingkungan kepolisian barang bukti di atur oleh Peraturan Kepala Kepolisian Negara Republik Indonesia pada pasal 2 angka 8 Peraturan Kepala Kepolisian negara Republik Indonesia Nomor 10 Tahun 2010 
+        Tentang tata cara pengelolaan barang bukti di lingkungan Kepolisian Negara Republik Indonesia (Peraturan kepolisian, 2010) 
+        “Pejabat Pengelola Barang Bukti yang selanjutnya disingkat PPBB adalah Anggota Polri mempunyai tugas dan wewenang menerima, menyimpan, mengamankan, merawat, mengeluarkan dan memusnahkan benda Barang bukti 
+        dari ruang atau tempat khusus penyimpanan Barang bukti yaitu Pejabat Pengelola Barang bukti (PPBB)”. 
+        Pada Pasal 11 Bab IV tentang PPBB mempunyai tugas dan wewenang sebagai berikut menurut peraturan kepala republik Indonesia tahun 2010 sebagai berikut:
+    </p>
+    <ol type="a">
+        <ul>a. Menerima penyerahan barang bukti yang telah disita oleh penyidik.</ul>
+        <ul>b. Mencatat kedalam buku register daftar barang bukti. </ul>
+        <ul>c. Menyimpan barang bukti berdasarkan sifat dan jenisnya. </ul>
+        <ul>d. Mengamankan barang bukti agar tetap terjamin dan kuantitas dan/atau kualitasnya. </ul>
+        <ul>e. Mengontrol barang bukti atas perintah atasan penyidik untuk dipinjam pakaikan kepada pemilik yang berhak</ul>
+        <ul>f. Memusnahkan barang bukti. (Peraturan kepolisian, 2010)</ul>
+    </ol>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        pekerjaan rumah tersendiri bagi Kepolisian saat ini. Pengelolaan barang bukti beserta administrasi barang bukti yang saat ini masih menggunakan cara mengarsipkan data barang bukti 
+        kedalam buku besar registrasi barang bukti dan map file. Cara seperti ini memberikan dampak yang kurang baik apabila dalam situasi tertentu 
+        dengan kondisi barang bukti yang sudah berumur cukup lama pada gudang penyimpanan barang bukti, 
+        maka menimbulkan kesulitan dalam pencarian data barang bukti yang tentunya membutuhkan waktu untuk mencari lembaran data barang bukti tersebut, 
+        parahnya lagi apabila file data barang bukti tersebut hilang atau rusak. Di lapangan, barang bukti kerap mengalami kehilangan identitasnya, 
+        untuk mencari identitas barang bukti tersebut akan sulit mengingat barang bukti tidak dikenali siapa yang menangani, barang bukti kasus apa, 
+        siapa penyidik, siapa korban dan siapa tersangka bahkan kehilangan nomor kasus pada barang bukti tersebut. 
+        Hal ini harusnya tidak boleh terjadi, mengingat barang bukti adalah alat yang penting dalam penyidikan untuk menyelesaikan kasus, 
+        apalagi menyelesaikan satu kasus membutuhkan waktu yang cukup lama. 
+    </p>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Sudah sewajarnya perubahan pada sistem penyimpanan barang bukti yang awalnya hanya pada sebuah buku dirubah menjadi sistem informasi 
+        berguna untuk mempermudah pengelola barang bukti serta menjalankan amanah Peraturan Kepala Kepolisian Republik Indonesia Nomor 10 Tahun 2010 
+        tentang Pengelolaan Barang bukti. Melihat dari paparan kasus di atas maka perlulah di buat sebuah aplikasi yang dapat membantu 
+        pengelola data barang bukti dalam mengarsipkan data dan merekap data barang bukti dari tahun ketahun. 
+        Aplikasi ini dapat menjadi wadah agar mempermudah pengelola dalam meregristrasi barang bukti. 
+    </p>
+    <p style="text-align: justify; text-indent: 0.5in;"> Dalam penelitian ini, metode yang digunakan dalam rancang bangun sebuah sistem dengan metode prototyping yang di dasarkan pada sebuah konsep working model. 
+        Metode prototyping memungkin untuk klien dan pengguna saling melakukan eksperimen untuk tujuan rancang bangun 
+        sistem informasi dengan tujuan kepuasan dan kesesuaian klien pada sistem yang akan dikembangkan.
+    </p>
+
+
+    <h3>1.2.	Perumusan Masalah</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Berdasarkan latar belakang masalah yang ada, maka didapat rumusan masalah bagaimana rancang bangun sebuah sistem informasi dengan menggunakan metode prototyping berdasarkan tingkat kebutuhan klien.
+    </p>
+
+
+    <h3>1.3.	Batasan Masalah Penelitian</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Adapun batasan masalah dari tugas ini adalah: 
+    </p>
+    <ol type="a">
+       <ul>a. Obyek yang diteliti adalah Polsek Depok Timur Yogyakarta. </ul>
+       <ul>b. Sistem informasi diperuntukkan pada pengguna bagian Kataud dan Reserse kriminal</ul>
+       <ul>c. Sistem informasi disesuaikan dengan studi kasus Polsek Depok Timur.</ul>
+       <ul>d. Semua user yang menggunakan aplikasi ini, data user dikelola oleh seorang admin</ul>
+       <ul>e. Sistem informasi hanya sebagai wadah registrasi data yang meliputi:
+        <li>tersangka</li>
+        <li>perkara</li>
+        <li>barang bukti</li>
+    </ol></ul>
+
+
+    <h3>1.4.	Tujuan Penelitian</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Adapun tujuan dari penelitian ini adalah menghasilkan aplikasi registrasi data barang bukti kriminal dengan menggunakan prototyping sebagai metode dalam rancang bangun sistem informasi
+    </p>
+    <h3>1.5.	Manfaat Penelitian</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Dari penyusunan tugas ini, adapun manfaat yang diperoleh: 
+    </p>
+    <ol type="a">
+    <ul>a. Membantu petugas yang bertanggung jawab atas pengelolaan barang bukti  secara rapi ke dalam sistem</ul>
+    <ul>b. Mempermudah dalam pencarian data barang bukti tindak kriminal</ul>
+    <ul>c. Membantu penyidik dalam peregistrasian data barang bukti tindak kriminal</ul>
+    </ol>
+
+
+    <h3>1.6.	Metodologi Penelitian</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Dalam pengerjaan tugas ini terdapat dua metode yang digunakan, yaitu metode 
+        pengumpunal data dan metode pengembangan sistem
+    </p>
+
+
+    <h3>1.6.1.   Metode Pengumpulan Data</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Metode pengumumpulan data merupakan yang digunakan untuk mendapatkan data informasi yang dibutuhkan selama pengerjaan tugas. 
+        Metode yang digunakan merupakan:
+    <ol type="a">
+        <ul>a. Wawancara</ul>
+        <p style="text-align: justify; text-indent: 0.6in;">
+            Metode ini dilakukan untuk mendapatkan informasi kebutuhan sistem yang diperlukan oleh klien. 
+            Dalam pelaksanaannya dilakukan dengan tanya jawab di beberapa kesempatan.
+        </p>
+        <ul>b. Kepustakaan</ul>
+        <p style="text-align: justify; text-indent: 0.6in;">
+            Informasi yang didapat dari metode ini dapat digunakan untuk mengetahui bagaimana cara membangun aplikasi registrasi dta barang bukti tindak kriminal.
+        </p>
+    </p>
+    </ol>
+    
+
+    <h3>1.6.2 Metode Pengembangan Sistem</h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Setelah data-data yang dibutuhkan sudah ada, dilanjutkan dengan tahapan yang digunakan untuk membangun aplikasi. 
+        Dalam tugas ini metode pengembangan sistem yang digunakan adalah prototyping sebagai berikut :
+        <ol type="a">
+            <ul>a.	Mendengarkan Pelanggan </ul>
+            <p style="text-align: justify; text-indent: 0.6in;">
+                Pada tahapan ini dilakukan pengumpulan data dan analisis kebutuhan untuk membangun aplikasi yang akan dibuat. 
+                Untuk mengetahui kebutuhan user dapat dilakukan wawancara langsung kepada pihak yang bersangkutan.
+            </p>
+            <ul>b.	Membangun / Memperbaiki Market</ul>
+            <p style="text-align: justify; text-indent: 0.6in;">
+                Setelah pengumpulan kebutuhan dan analisis, kemudian dilakukan perancangan cepat secara sederhana untuk membangun prototype yang sesuai dengan hasil wawancara kebutuhan dan analisis kemudian di ajukan kepada klien. Pada tahap perancangan sistem menggunakan DFD (Data Flow Diagram), ERD (Entity Relationship Diagram) dan juga melakukan perancangan Design Interface yang akan digunakan. 
+            </p style="text-align: justify; text-indent: 0.6in;">
+            <ul>c.	Uji pelanggan – Mengendalikan </ul>
+            <p style="text-align: justify; text-indent: 0.6in;">
+                Market Pada tahapan ini dilakukan evalusi terhadap prototype yang telah di buat. Evalusi ini dilakukan oleh klien dengan menguji prototype apakah sesuai atau terdapat kekurangan. Apabila tedapat kekurangan maka akan berulang pada bagian a dan b kemudian akan dilakukan evaluasi kembali. Langkah ini akan berulang hingga terjadi kesepakatan dan kecocokan klien dan akan berhenti ketika klien merasa cocok.
+            </p>
+        </ol>
+    </p>
+
+
+    <h3>1.7 Sistematika Penulisan </h3>
+    <p style="text-align: justify; text-indent: 0.5in;">
+        Sistematika penulisan laporan berguna untuk memudahkan dalam memahami isi laporan. 
+        Secara garis besar sistematika penulisan laporan  setelah Bab I sebagai berikut :
+    </p>
+    <p style="text-align: justify; text-indent: 0.8in;">
+        Bab II berisi landasan teori yang berfungsi sebagai sumber informasi untuk memahami permasalahan dan dasar teori yang berhubungan dengan tugas ini.
+    </p>
+    <p style="text-align: justify; text-indent: 0.8in;">
+        Bab III menjelaskan tentang metodologi pengerjaan berisi uraian tetnatng Langkah-Langkah penyelesaian masalah dalam membuat aplikasi.
+    </p>
+    <p style="text-align: justify; text-indent: 0.8in;">
+        Bab IV berisi hasil dari implementasi metodologi pengerjaan. 
+        Tahapan ini diperlukan untuk menunjukan hasil kinerja dari prototype yang dilakikan selama proses penyusunan tugas ini.
+    </p>
+    <p style="text-align: justify; text-indent: 0.8in;">
+        Bab V berisi kesimpulan, dan saran yang menguraikan rangkuman dari hasil analisis kinerja pada bagian sebelumnya 
+        dan berisi saran-saran yang perlu diperhatikan berdasarkan keterbatasan-keterbatasan yang ditemukan.
+    </p>
+
+    <p align="center">BAB 
+        <a href="bab1.html">1 </a><a href="bab2.html">2 </a><a href="bab3.html">3 </a><a href="bab4.html">4 </a><a href="bab5.html">5 </a>
+    </p>
+
+</body>
+</Html> 
